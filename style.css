@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./assets/netflixBg.png");
+}
+header{
+    display: flex;
+    justify-content:  space-between;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+header > img{
+    width: 200px;
+    object-fit: contain;
+}
+.signButton{
+    width: 100px;
+    height: 20px;
+    background-color: #E50914;
+    color: white;
+    text-align: center;
+    border-radius:  5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.details{
+    display: block;
+    width: fit-content;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.information p:nth-child(1){
+    font-size: 50px;
+    font-weight: 650;
+    letter-spacing: 3px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.information p:nth-child(2){
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+.information p:nth-child(3){
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 19px;
+}
+
+.emailcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.emailcontainer > input{
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border: 1.5px solid whitesmoke;
+    color: white;
+    margin-right: 20px;
+    outline: none;
+    padding-left: 10px;
+    backdrop-filter: blur(20px);
+    
+
+}
+
+.emailcontainer > input::placeholder{
+    color: whitesmoke;
+}
+
+.emailButton{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #E50914;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9px;
+}
